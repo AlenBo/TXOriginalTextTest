@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "TXOriginalText"
-s.version      = "1.1"
+s.version      = "1.2"
 s.summary      = "鸡哥的原文点听"
 s.homepage     = "https://github.com/AlenBo/TXOriginalText"
 s.license      = "MIT"
