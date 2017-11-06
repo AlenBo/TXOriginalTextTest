@@ -17,10 +17,10 @@
 		1E15B50F1FB06FE400C60619 /* NSString+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E15B5091FB06FE400C60619 /* NSString+RichText.m */; };
 		1E15B5101FB06FE400C60619 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E15B50B1FB06FE400C60619 /* TTTAttributedLabel.m */; };
 		1E15B5111FB06FE400C60619 /* TTTAttributeLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E15B50D1FB06FE400C60619 /* TTTAttributeLabelView.m */; };
-		1EE2406E1F96F05600AD087E /* AVAudioPlayer+TX.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE240691F96F05600AD087E /* AVAudioPlayer+TX.m */; };
-		1EE2406F1F96F05600AD087E /* TXAudioInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2406B1F96F05600AD087E /* TXAudioInfo.m */; };
-		1EE240701F96F05600AD087E /* TXAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2406D1F96F05600AD087E /* TXAudioManager.m */; };
-		1EE240731F96F0A500AD087E /* TXContentAudioInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE240721F96F0A500AD087E /* TXContentAudioInfo.m */; };
+		1E15B51B1FB0711C00C60619 /* TXAudioInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E15B5141FB0711C00C60619 /* TXAudioInfo.m */; };
+		1E15B51C1FB0711C00C60619 /* TXAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E15B5161FB0711C00C60619 /* TXAudioManager.m */; };
+		1E15B51D1FB0711C00C60619 /* TXContentAudioInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E15B5181FB0711C00C60619 /* TXContentAudioInfo.m */; };
+		1E15B51E1FB0711C00C60619 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E15B51A1FB0711C00C60619 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,15 +42,15 @@
 		1E15B50B1FB06FE400C60619 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
 		1E15B50C1FB06FE400C60619 /* TTTAttributeLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributeLabelView.h; sourceTree = "<group>"; };
 		1E15B50D1FB06FE400C60619 /* TTTAttributeLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributeLabelView.m; sourceTree = "<group>"; };
-		1EE240681F96F05600AD087E /* AVAudioPlayer+TX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAudioPlayer+TX.h"; sourceTree = "<group>"; };
-		1EE240691F96F05600AD087E /* AVAudioPlayer+TX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAudioPlayer+TX.m"; sourceTree = "<group>"; };
-		1EE2406A1F96F05600AD087E /* TXAudioInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXAudioInfo.h; sourceTree = "<group>"; };
-		1EE2406B1F96F05600AD087E /* TXAudioInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXAudioInfo.m; sourceTree = "<group>"; };
-		1EE2406C1F96F05600AD087E /* TXAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXAudioManager.h; sourceTree = "<group>"; };
-		1EE2406D1F96F05600AD087E /* TXAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXAudioManager.m; sourceTree = "<group>"; };
-		1EE240711F96F0A500AD087E /* TXContentAudioInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXContentAudioInfo.h; sourceTree = "<group>"; };
-		1EE240721F96F0A500AD087E /* TXContentAudioInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXContentAudioInfo.m; sourceTree = "<group>"; };
-		1EE240741F96F10B00AD087E /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		1E15B5121FB0711C00C60619 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		1E15B5131FB0711C00C60619 /* TXAudioInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXAudioInfo.h; sourceTree = "<group>"; };
+		1E15B5141FB0711C00C60619 /* TXAudioInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXAudioInfo.m; sourceTree = "<group>"; };
+		1E15B5151FB0711C00C60619 /* TXAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXAudioManager.h; sourceTree = "<group>"; };
+		1E15B5161FB0711C00C60619 /* TXAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXAudioManager.m; sourceTree = "<group>"; };
+		1E15B5171FB0711C00C60619 /* TXContentAudioInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXContentAudioInfo.h; sourceTree = "<group>"; };
+		1E15B5181FB0711C00C60619 /* TXContentAudioInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXContentAudioInfo.m; sourceTree = "<group>"; };
+		1E15B5191FB0711C00C60619 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E15B51A1FB0711C00C60619 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,15 @@
 				1E15B50B1FB06FE400C60619 /* TTTAttributedLabel.m */,
 				1E15B50C1FB06FE400C60619 /* TTTAttributeLabelView.h */,
 				1E15B50D1FB06FE400C60619 /* TTTAttributeLabelView.m */,
-				1EE240671F96F05600AD087E /* TXAudioTool */,
+				1E15B5121FB0711C00C60619 /* Singleton.h */,
+				1E15B5131FB0711C00C60619 /* TXAudioInfo.h */,
+				1E15B5141FB0711C00C60619 /* TXAudioInfo.m */,
+				1E15B5151FB0711C00C60619 /* TXAudioManager.h */,
+				1E15B5161FB0711C00C60619 /* TXAudioManager.m */,
+				1E15B5171FB0711C00C60619 /* TXContentAudioInfo.h */,
+				1E15B5181FB0711C00C60619 /* TXContentAudioInfo.m */,
+				1E15B5191FB0711C00C60619 /* ViewController.h */,
+				1E15B51A1FB0711C00C60619 /* ViewController.m */,
 				108E81211B2C38EF0054E14A /* Main.storyboard */,
 				108E81241B2C38EF0054E14A /* Images.xcassets */,
 				108E81261B2C38EF0054E14A /* LaunchScreen.xib */,
@@ -111,22 +119,6 @@
 				108E81191B2C38EF0054E14A /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1EE240671F96F05600AD087E /* TXAudioTool */ = {
-			isa = PBXGroup;
-			children = (
-				1EE240741F96F10B00AD087E /* Singleton.h */,
-				1EE240681F96F05600AD087E /* AVAudioPlayer+TX.h */,
-				1EE240691F96F05600AD087E /* AVAudioPlayer+TX.m */,
-				1EE2406A1F96F05600AD087E /* TXAudioInfo.h */,
-				1EE2406B1F96F05600AD087E /* TXAudioInfo.m */,
-				1EE2406C1F96F05600AD087E /* TXAudioManager.h */,
-				1EE2406D1F96F05600AD087E /* TXAudioManager.m */,
-				1EE240711F96F0A500AD087E /* TXContentAudioInfo.h */,
-				1EE240721F96F0A500AD087E /* TXContentAudioInfo.m */,
-			);
-			path = TXAudioTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,15 +194,15 @@
 			files = (
 				1E15B50E1FB06FE400C60619 /* ConfigAttributedString.m in Sources */,
 				1E15B5111FB06FE400C60619 /* TTTAttributeLabelView.m in Sources */,
+				1E15B51B1FB0711C00C60619 /* TXAudioInfo.m in Sources */,
 				1E15B50F1FB06FE400C60619 /* NSString+RichText.m in Sources */,
-				1EE2406F1F96F05600AD087E /* TXAudioInfo.m in Sources */,
-				1EE2406E1F96F05600AD087E /* AVAudioPlayer+TX.m in Sources */,
 				108E81201B2C38EF0054E14A /* ViewController.m in Sources */,
+				1E15B51E1FB0711C00C60619 /* ViewController.m in Sources */,
 				108E811D1B2C38EF0054E14A /* AppDelegate.m in Sources */,
 				108E811A1B2C38EF0054E14A /* main.m in Sources */,
-				1EE240701F96F05600AD087E /* TXAudioManager.m in Sources */,
-				1EE240731F96F0A500AD087E /* TXContentAudioInfo.m in Sources */,
 				1E15B5101FB06FE400C60619 /* TTTAttributedLabel.m in Sources */,
+				1E15B51D1FB0711C00C60619 /* TXContentAudioInfo.m in Sources */,
+				1E15B51C1FB0711C00C60619 /* TXAudioManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
