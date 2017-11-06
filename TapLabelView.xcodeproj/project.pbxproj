@@ -13,10 +13,10 @@
 		108E81231B2C38EF0054E14A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108E81211B2C38EF0054E14A /* Main.storyboard */; };
 		108E81251B2C38EF0054E14A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108E81241B2C38EF0054E14A /* Images.xcassets */; };
 		108E81281B2C38EF0054E14A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 108E81261B2C38EF0054E14A /* LaunchScreen.xib */; };
-		108E81401B2C39080054E14A /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 108E813F1B2C39080054E14A /* TTTAttributedLabel.m */; };
-		108E81431B2C390E0054E14A /* TTTAttributeLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 108E81421B2C390E0054E14A /* TTTAttributeLabelView.m */; };
-		1EE240651F96EAFD00AD087E /* ConfigAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE240621F96EAFD00AD087E /* ConfigAttributedString.m */; };
-		1EE240661F96EAFD00AD087E /* NSString+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE240641F96EAFD00AD087E /* NSString+RichText.m */; };
+		1E15B50E1FB06FE400C60619 /* ConfigAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E15B5071FB06FE400C60619 /* ConfigAttributedString.m */; };
+		1E15B50F1FB06FE400C60619 /* NSString+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E15B5091FB06FE400C60619 /* NSString+RichText.m */; };
+		1E15B5101FB06FE400C60619 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E15B50B1FB06FE400C60619 /* TTTAttributedLabel.m */; };
+		1E15B5111FB06FE400C60619 /* TTTAttributeLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E15B50D1FB06FE400C60619 /* TTTAttributeLabelView.m */; };
 		1EE2406E1F96F05600AD087E /* AVAudioPlayer+TX.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE240691F96F05600AD087E /* AVAudioPlayer+TX.m */; };
 		1EE2406F1F96F05600AD087E /* TXAudioInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2406B1F96F05600AD087E /* TXAudioInfo.m */; };
 		1EE240701F96F05600AD087E /* TXAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2406D1F96F05600AD087E /* TXAudioManager.m */; };
@@ -34,14 +34,14 @@
 		108E81221B2C38EF0054E14A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		108E81241B2C38EF0054E14A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		108E81271B2C38EF0054E14A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		108E813E1B2C39080054E14A /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
-		108E813F1B2C39080054E14A /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
-		108E81411B2C390E0054E14A /* TTTAttributeLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributeLabelView.h; sourceTree = "<group>"; };
-		108E81421B2C390E0054E14A /* TTTAttributeLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributeLabelView.m; sourceTree = "<group>"; };
-		1EE240611F96EAFD00AD087E /* ConfigAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigAttributedString.h; sourceTree = "<group>"; };
-		1EE240621F96EAFD00AD087E /* ConfigAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigAttributedString.m; sourceTree = "<group>"; };
-		1EE240631F96EAFD00AD087E /* NSString+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RichText.h"; sourceTree = "<group>"; };
-		1EE240641F96EAFD00AD087E /* NSString+RichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RichText.m"; sourceTree = "<group>"; };
+		1E15B5061FB06FE400C60619 /* ConfigAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigAttributedString.h; sourceTree = "<group>"; };
+		1E15B5071FB06FE400C60619 /* ConfigAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigAttributedString.m; sourceTree = "<group>"; };
+		1E15B5081FB06FE400C60619 /* NSString+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RichText.h"; sourceTree = "<group>"; };
+		1E15B5091FB06FE400C60619 /* NSString+RichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RichText.m"; sourceTree = "<group>"; };
+		1E15B50A1FB06FE400C60619 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		1E15B50B1FB06FE400C60619 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+		1E15B50C1FB06FE400C60619 /* TTTAttributeLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributeLabelView.h; sourceTree = "<group>"; };
+		1E15B50D1FB06FE400C60619 /* TTTAttributeLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributeLabelView.m; sourceTree = "<group>"; };
 		1EE240681F96F05600AD087E /* AVAudioPlayer+TX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAudioPlayer+TX.h"; sourceTree = "<group>"; };
 		1EE240691F96F05600AD087E /* AVAudioPlayer+TX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAudioPlayer+TX.m"; sourceTree = "<group>"; };
 		1EE2406A1F96F05600AD087E /* TXAudioInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXAudioInfo.h; sourceTree = "<group>"; };
@@ -87,9 +87,15 @@
 				108E811C1B2C38EF0054E14A /* AppDelegate.m */,
 				108E811E1B2C38EF0054E14A /* ViewController.h */,
 				108E811F1B2C38EF0054E14A /* ViewController.m */,
+				1E15B5061FB06FE400C60619 /* ConfigAttributedString.h */,
+				1E15B5071FB06FE400C60619 /* ConfigAttributedString.m */,
+				1E15B5081FB06FE400C60619 /* NSString+RichText.h */,
+				1E15B5091FB06FE400C60619 /* NSString+RichText.m */,
+				1E15B50A1FB06FE400C60619 /* TTTAttributedLabel.h */,
+				1E15B50B1FB06FE400C60619 /* TTTAttributedLabel.m */,
+				1E15B50C1FB06FE400C60619 /* TTTAttributeLabelView.h */,
+				1E15B50D1FB06FE400C60619 /* TTTAttributeLabelView.m */,
 				1EE240671F96F05600AD087E /* TXAudioTool */,
-				1EE240601F96EAFD00AD087E /* TXAttributeStringMgr */,
-				108E813D1B2C39080054E14A /* TTTAttributedLabel */,
 				108E81211B2C38EF0054E14A /* Main.storyboard */,
 				108E81241B2C38EF0054E14A /* Images.xcassets */,
 				108E81261B2C38EF0054E14A /* LaunchScreen.xib */,
@@ -105,28 +111,6 @@
 				108E81191B2C38EF0054E14A /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		108E813D1B2C39080054E14A /* TTTAttributedLabel */ = {
-			isa = PBXGroup;
-			children = (
-				108E81411B2C390E0054E14A /* TTTAttributeLabelView.h */,
-				108E81421B2C390E0054E14A /* TTTAttributeLabelView.m */,
-				108E813E1B2C39080054E14A /* TTTAttributedLabel.h */,
-				108E813F1B2C39080054E14A /* TTTAttributedLabel.m */,
-			);
-			path = TTTAttributedLabel;
-			sourceTree = "<group>";
-		};
-		1EE240601F96EAFD00AD087E /* TXAttributeStringMgr */ = {
-			isa = PBXGroup;
-			children = (
-				1EE240611F96EAFD00AD087E /* ConfigAttributedString.h */,
-				1EE240621F96EAFD00AD087E /* ConfigAttributedString.m */,
-				1EE240631F96EAFD00AD087E /* NSString+RichText.h */,
-				1EE240641F96EAFD00AD087E /* NSString+RichText.m */,
-			);
-			path = TXAttributeStringMgr;
 			sourceTree = "<group>";
 		};
 		1EE240671F96F05600AD087E /* TXAudioTool */ = {
@@ -216,17 +200,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE240651F96EAFD00AD087E /* ConfigAttributedString.m in Sources */,
-				1EE240661F96EAFD00AD087E /* NSString+RichText.m in Sources */,
+				1E15B50E1FB06FE400C60619 /* ConfigAttributedString.m in Sources */,
+				1E15B5111FB06FE400C60619 /* TTTAttributeLabelView.m in Sources */,
+				1E15B50F1FB06FE400C60619 /* NSString+RichText.m in Sources */,
 				1EE2406F1F96F05600AD087E /* TXAudioInfo.m in Sources */,
 				1EE2406E1F96F05600AD087E /* AVAudioPlayer+TX.m in Sources */,
-				108E81431B2C390E0054E14A /* TTTAttributeLabelView.m in Sources */,
 				108E81201B2C38EF0054E14A /* ViewController.m in Sources */,
 				108E811D1B2C38EF0054E14A /* AppDelegate.m in Sources */,
 				108E811A1B2C38EF0054E14A /* main.m in Sources */,
 				1EE240701F96F05600AD087E /* TXAudioManager.m in Sources */,
-				108E81401B2C39080054E14A /* TTTAttributedLabel.m in Sources */,
 				1EE240731F96F0A500AD087E /* TXContentAudioInfo.m in Sources */,
+				1E15B5101FB06FE400C60619 /* TTTAttributedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include";
 				INFOPLIST_FILE = TapLabelView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.YouXianMing.$(PRODUCT_NAME:rfc1034identifier)";
@@ -357,6 +342,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include";
 				INFOPLIST_FILE = TapLabelView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.YouXianMing.$(PRODUCT_NAME:rfc1034identifier)";
