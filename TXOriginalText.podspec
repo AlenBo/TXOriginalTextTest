@@ -7,6 +7,6 @@ s.license      = "MIT"
 s.author             = { "AlenBo" => "447699760@qq.com" }
 s.platform = :ios, '8.0'
 s.source       = { :git => "https://github.com/AlenBo/TXOriginalText.git", :tag => "#{s.version}" }
-s.source_files  = "TapLabelView"
+s.source_files  = "TapLabelView/*"
 s.requires_arc = true
 end
